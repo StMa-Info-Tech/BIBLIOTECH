@@ -1,4 +1,4 @@
-## BIBLIOTECH
+## 📚 BIBLIOTECH 📚
 
 (Lire ce document en [anglais](README.md))
 
