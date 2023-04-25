@@ -2,9 +2,47 @@
 **BIBLIOTECH** est un logiciel de **gestion de bibliothèque sans-contact**. Il est la solution idéale pour **améliorer la gestion des bibliothèques souvent fastidieuse.**
 Avec des **fonctions complètes** et une **interface utilisateur intuitive** notre logiciel offre une expérience de **gestion de bibliothèque de haute qualité** pour un travail plus efficace. 
 Le logiciel propose l'utilisation de la **technologie NFC**, à travers l'utilisation de cartes/puces NFC permettant une **gestion simple des livres et adhérents**, qui ne doivent que **passer leur badge pour être identifiés**.
+
+![Cover](https://github.com/StMa-Info-Tech/BIBLIOTECH/edit/main/readme_img/logo.png)
+
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
+### General Info
+***
+Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+### Screenshot
+![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
+## Technologies
+***
+A list of technologies used within the project:
+* [Technologie name](https://example.com): Version 12.3 
+* [Technologie name](https://example.com): Version 2.34
+* [Library name](https://example.com): Version 1234
+## Installation
+***
+A little intro about the installation. 
+```
+$ git clone https://example.com
+$ cd ../path/to/the/file
+$ npm install
+$ npm start
+```
+Side information: To use the application in a special environment use ```lorem ipsum``` to start
+## Collaboration
+***
+Give instructions on how to collaborate with your project.
+> Maybe you want to write a quote in this part. 
+> It should go over several rows?
+> This is how you do it.
+## FAQs
+***
 A list of frequently asked questions
 1. **This is a question in bold**
-Answer of the first question with _italic words_.
+Answer of the first question with _italic words_. 
 2. __Second question in bold__ 
 To answer this question we use an unordered list:
 * First point
