@@ -1,0 +1,5 @@
+tk
+customtkinter==0.3
+Pillow
+isbnlib
+datetime
