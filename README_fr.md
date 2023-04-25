@@ -6,8 +6,6 @@
 Avec des **fonctions complètes** et une **interface utilisateur intuitive** notre logiciel offre une expérience de **gestion de bibliothèque de haute qualité** pour un travail plus efficace. 
 Le logiciel propose l'utilisation de la **technologie NFC**, à travers l'utilisation de cartes/puces NFC permettant une **gestion simple des livres et adhérents**, qui ne doivent que **passer leur badge pour être identifiés**.
 
-![Cover](https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG)
-
 <p align="center">
   <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG" alt="Sublime's custom image"/>
 </p>
