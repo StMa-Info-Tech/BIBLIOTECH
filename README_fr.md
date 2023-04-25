@@ -8,6 +8,10 @@ Le logiciel propose l'utilisation de la **technologie NFC**, à travers l'utilis
 
 ![Cover](https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG)
 
+<p align="center">
+  <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG" alt="Sublime's custom image"/>
+</p>
+
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
