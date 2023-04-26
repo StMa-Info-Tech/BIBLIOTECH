@@ -6,8 +6,8 @@
   <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG" alt="Sublime's custom image"/>
 </p>
 
-## Table of Contents
-1. [General Info](#general-info)
+## Sommaire
+1. [Informations générales](#Informations-générales)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
