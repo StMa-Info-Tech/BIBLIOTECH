@@ -16,9 +16,9 @@ Le logiciel propose l'utilisation de la technologie NFC, à travers l'utilisatio
 3. [Installation](#installation)
 4. [Collaboration](#collaboration)
 5. [FAQs](#faqs)
-### General Info
+### Informations générales
 ***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
+BIBLIOTECH a été développé grâce aux langages de programmation Python etSQL (langage d'exploitation de base de données relationnelles). Son interface a pu être réalisée grâce aux librairies Tkinter et CustomTkinter.
 ### Screenshot
 ![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
 ## Technologies
