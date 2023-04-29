@@ -27,14 +27,15 @@ A list of technologies used within the project:
 * [Library name](https://example.com): Version 1234
 ## Installation
 ***
-A little intro about the installation. 
+Commandes a éxecuter dans un terminal (cmd pour Windows ou terminal pour Linux) /n
+information: Si les commandes ne marchent pas, cliquez [ICI](#Informations-générales).
 ```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
+$ git clone https://github.com/StMa-Info-Tech/BIBLIOTECH
+$ cd BIBLIOTECH/Sources
+$ pip install -r Annexe/requirements.txt
+$ python3 BIBLIOTECH.py
 ```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
+information: Si vous souhaitez utiliser la version avec le matériel NFC, éxecutez la dernière commande avec ```BIBLIOTECH_nfc.py``` pour démarrer 
 ## Collaboration
 ***
 Give instructions on how to collaborate with your project.
