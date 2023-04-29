@@ -1,5 +1,5 @@
 tk
-customtkinter==0.3
+customtkinter==5.1.2
 Pillow
 isbnlib
 datetime
