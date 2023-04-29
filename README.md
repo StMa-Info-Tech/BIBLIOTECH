@@ -37,7 +37,7 @@ information: If the commands do not work, click [HERE](#General information)
 ```
 $ git clone https://github.com/StMa-Info-Tech/BIBLIOTECH
 $ cd BIBLIOTECH/Sources
-$ pip install -r Annex/requirements.txt
+$ pip install -r Annexe/requirements.txt
 $ python3 BIBLIOTECH.py
 ```
 information: If you want to use the version with NFC hardware, run the last command with ``BIBLIOTECH_nfc.py`` to start 
