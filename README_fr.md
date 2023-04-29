@@ -27,7 +27,9 @@ A list of technologies used within the project:
 * [Library name](https://example.com): Version 1234
 ## Installation
 ***
-Commandes a éxecuter dans un terminal (cmd pour Windows ou terminal pour Linux) /n
+Commandes a éxecuter dans un terminal (cmd pour Windows ou terminal pour Linux) 
+
+
 information: Si les commandes ne marchent pas, cliquez [ICI](#Informations-générales).
 ```
 $ git clone https://github.com/StMa-Info-Tech/BIBLIOTECH
