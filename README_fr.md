@@ -10,8 +10,8 @@
 1. [Informations générales](#Informations-générales)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
+4. [Manuel d'utilisation](#Manuel-d'utilisation)
+5. [Conclusion](#Conclusion)
 ### Informations générales
 ***
 **BIBLIOTECH est un logiciel de gestion de bibliothèque sans-contact. Il est la solution idéale pour améliorer la gestion des bibliothèques souvent fastidieuse.
@@ -21,16 +21,19 @@ Le logiciel propose l'utilisation de la technologie NFC, à travers l'utilisatio
 ![Image text](https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/menu_livre.PNG)
 ## Technologies
 ***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
+Technologies et librairies utilisées:
+* [Python](https://www.python.org/): Version 3 / (langage de programmation)
+* [SQLite](https://docs.python.org/3/library/sqlite3.html): Version 3 / (Bibliothèque de lecture de base de donnés relationelle)
+* [isbnlib](https://pypi.org/project/isbnlib/): Version 3.10.14 / (Bibliothèque de récupération des données bibliographiques)
+* [nfcpy](https://nfcpy.readthedocs.io/en/latest/): Version 1.0.4 / (Bibliothèque de gestion de technologie NFC)
+* [PIL](https://pillow.readthedocs.io/en/stable/): Version 9.5.0 / (Bibliothèque de traitement d’image) 
+* [datetime](https://docs.python.org/fr/3/library/datetime.html): Version 3.11.13 / (Bibliothèque de récupération des données temporelles)
 ## Installation
 ***
 Commandes a éxecuter dans un terminal (cmd pour Windows ou terminal pour Linux) 
 
 
-information: Si les commandes ne marchent pas, cliquez [ICI](#Informations-générales).
+information: Si les commandes ne marchent pas, cliquez [ICI](#Informations-générales)
 ```
 $ git clone https://github.com/StMa-Info-Tech/BIBLIOTECH
 $ cd BIBLIOTECH/Sources
@@ -38,25 +41,12 @@ $ pip install -r Annexe/requirements.txt
 $ python3 BIBLIOTECH.py
 ```
 information: Si vous souhaitez utiliser la version avec le matériel NFC, éxecutez la dernière commande avec ```BIBLIOTECH_nfc.py``` pour démarrer 
-## Collaboration
+## Manuel d'utilisation
 ***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
+> Pour voir comment utiliser toutes les fonctions du logiciel, cliquez [ICI](#Informations-générales)
+
+## Conclusion
 ***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+Ce logiciel a été réalisé par un groupe de 4 élèves du Lycée Sainte-Marie de Caen en Normandie, **Jules GUILLLAUME (@slzr23), Thomas GRUDE (@MasakiTadasho), Lucie SIROT-BOCQUET et Auxane SALMERO (@AwellTv)**
+
+Il est aujourd'hui soumis au **Trophée NSI**
