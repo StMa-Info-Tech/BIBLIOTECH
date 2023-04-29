@@ -10,7 +10,7 @@
 1. [General information](#General-information)
 2. [Technologies](#technologies)
 3. [Installation](#installation)
-4. [User manual](#user manual)
+4. [User manual](#user-manual)
 5. [Conclusion](#Conclusion)
 ### General information
 ***
