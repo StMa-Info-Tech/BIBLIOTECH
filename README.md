@@ -43,7 +43,14 @@ $ python3 BIBLIOTECH.py
 information: If you want to use the version with NFC hardware, run the last command with ``BIBLIOTECH_nfc.py`` to start 
 ## User manual
 ***
-> To see how to use all the functions of the software, click [HERE](#General information)
+
+<p align="center">
+  <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/Capture.PNG"/>
+</p>
+
+<p align="center">
+  <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/Capture2.PNG"/>
+</p>
 
 ## Conclusion
 ***
