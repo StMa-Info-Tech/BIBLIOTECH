@@ -33,7 +33,7 @@ Technologies et librairies utilisées:
 Commandes a éxecuter dans un terminal (cmd pour Windows ou terminal pour Linux) 
 
 
-information: Si les commandes ne marchent pas, cliquez [ICI](#Informations-générales)
+information : Si les commandes ne fonctionnent pas, installez ``BIBLIOTECH.zip``, exécutez la commande ``pip install -r Annexe/requirements.txt``, et exécutez BIBLIOTECH.py ou BIBLIOTECH_nfc.py
 ```
 $ git clone https://github.com/StMa-Info-Tech/BIBLIOTECH
 $ cd BIBLIOTECH/Sources
