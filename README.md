@@ -1,6 +1,6 @@
 ## 📚 BIBLIOTECH 📚
 
-(Red this document in [French](README_fr.md))
+(Read this document in [French](README_fr.md))
 
 <p align="center">
   <img src="https://github.com/StMa-Info-Tech/BIBLIOTECH/blob/main/img_readme/fond.PNG" alt="Sublime's custom image"/>
