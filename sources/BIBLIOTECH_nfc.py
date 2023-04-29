@@ -305,10 +305,10 @@ def affichage_liste_emprunts():
 
 global Liste_Livre_Affiche
 Liste_Affiche = []
-Image_Poubelle = CTkImage(Image.open("Annexe\Delete.png"),size=(15,15))
-Image_Next_Page = CTkImage(Image.open("Annexe\Bold\Arrow - Right Circle.png"),size=(15,15))
-Image_Previous_Page = CTkImage(Image.open("Annexe\Bold\Arrow - Left Circle.png"),size=(15,15))
-Image_Retard = CTkImage(Image.open("Annexe\Retard.png"),size=(15,15))
+Image_Poubelle = CTkImage(Image.open("Annexe\icones\Delete.png"),size=(15,15))
+Image_Next_Page = CTkImage(Image.open("Annexe\icones\circle_right.png"),size=(15,15))
+Image_Previous_Page = CTkImage(Image.open("Annexe\icones\circle_left.png"),size=(15,15))
+Image_Retard = CTkImage(Image.open("Annexe\icones\Retard.png"),size=(15,15))
 global num_liste_affiche
 global num_liste_max
 num_liste_affiche=1
