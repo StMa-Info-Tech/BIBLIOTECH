@@ -1,6 +1,8 @@
 """
 Bienvenue sur le programme du projet BIBLIOTECH
 
+Cette version est la version NFC du logiciel, elle est la version principale cependant elle nécessite le lecteur NFC pour fonctionner et pour améliorer le confort d'utilisation la douchette permettant de lire les codes barres pour ne pas à avoir à recopier tout les isbn à la main mais elle n'est pas nécessaire au fonctionnement du programme
+
 L'essentiel pour s'y retrouver dans se programme est de suivre le nom des élements, pour les élements lié au TKinter/custontkinter la chartres est la suivante:
 
 -LabelSimple,LabelDouble,LabelQuintuple,LabelDeca,... sont des labels permettant de gérer l'affichage du rectangle au coin arrondie blanc situé a l'arrière des élements (derrières le menu de séléction d'onglet, derrière la liste de livre,...)
@@ -88,7 +90,7 @@ def affichage_liste_adherent():
     EntryTelephone.grid(row=6,column=5,columnspan=2,padx=(20,0))
     BouttonAjouter = CTkButton(root, text="AJOUTER",corner_radius=20,height= 50,width=87,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=Ajouter_Adherent).grid(row=6,column=8,columnspan=2)
     LabelSimple = CTkLabel(root, text="",corner_radius=15,height= 70,width=600,font=Outfit,text_color="white",fg_color="white").grid(row=9,rowspan=3,column=1,columnspan=4)
-    EntryRechercheAdherent = CTkEntry(root, placeholder_text="Rechercher un Emprunt",placeholder_text_color="#7882A5",corner_radius=10,height= 50,width=380,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
+    EntryRechercheAdherent = CTkEntry(root, placeholder_text="Rechercher un Adherent",placeholder_text_color="#7882A5",corner_radius=10,height= 50,width=380,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
     EntryRechercheAdherent.grid(row=10,column=1,columnspan=2)
     BouttonRecherche=CTkButton(root, text="RECHERCHER",corner_radius=20,height= 50,width=87,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=RechercherAdherent).grid(row=10,column=3,columnspan=2,sticky="e",padx=(0,20))
     if len(Liste_Adherent)<=10:
@@ -303,10 +305,10 @@ def affichage_liste_emprunts():
 
 global Liste_Livre_Affiche
 Liste_Affiche = []
-Image_Poubelle = CTkImage(Image.open("Annexe\icones\Delete.png"),size=(15,15))
-Image_Next_Page = CTkImage(Image.open("Annexe\icones\circle_right.png"),size=(15,15))
-Image_Previous_Page = CTkImage(Image.open("Annexe\icones\circle_left.png"),size=(15,15))
-Image_Retard = CTkImage(Image.open("Annexe\icones\Retard.png"),size=(15,15))
+Image_Poubelle = CTkImage(Image.open("Annexe\Delete.png"),size=(15,15))
+Image_Next_Page = CTkImage(Image.open("Annexe\Bold\Arrow - Right Circle.png"),size=(15,15))
+Image_Previous_Page = CTkImage(Image.open("Annexe\Bold\Arrow - Left Circle.png"),size=(15,15))
+Image_Retard = CTkImage(Image.open("Annexe\Retard.png"),size=(15,15))
 global num_liste_affiche
 global num_liste_max
 num_liste_affiche=1
@@ -592,7 +594,6 @@ def Emprunt():
     global num_liste_affiche
     Id_Livre = EntryScanEmprunt.get()
     Id_Adherent = EntryAdherentCarte.cget("text")
-    Id_Adherent = get_id()
     requeteLivre = f'SELECT * FROM livre WHERE isbn="{Id_Livre}"'
     curseur.execute(requeteLivre)
     Data_Livre = curseur.fetchone()
@@ -626,7 +627,6 @@ def Retour():
     global num_liste_affiche
     Id_Livre = EntryScanEmprunt.get()
     Id_Adherent = EntryAdherentCarte.cget("text")
-    Id_Adherent = get_id()
     requeteLivre = f'SELECT * FROM livre WHERE isbn="{Id_Livre}"'
     curseur.execute(requeteLivre)
     Data_Livre = curseur.fetchone()

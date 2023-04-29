@@ -165,7 +165,7 @@ def affichage_liste_livre():
     BouttonLivre = CTkButton(root, text="LIVRE",corner_radius=20,height= 35,width=61,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=ChangementLivre).grid(row=2,column=4)
     LabelEspace_LL0 = CTkLabel(root, text="",corner_radius=10,height=30,font=Outfit,fg_color="#0A1437").grid(row=4,column=0)
     LabelQuintuple = CTkLabel(root, text="",corner_radius=15,height= 70,width=715,font=Outfit,text_color="white",fg_color="white").grid(row=5,rowspan=3,column=1,columnspan=5,sticky="w")
-    EntryScanLivre = CTkEntry(root, placeholder_text="Scannez le code barre d'un livre ou tapez son ISBN",placeholder_text_color="#7882A5",width=400,corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
+    EntryScanLivre = CTkEntry(root, placeholder_text="Scannez le code barre d'un livre",placeholder_text_color="#7882A5",width=400,corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
     EntryScanLivre.grid(row=6,column=1,columnspan=2,sticky="w",padx=(10,0))
     EntryCategorie = CTkEntry(root, placeholder_text="Catégorie",placeholder_text_color="#7882A5",corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",width=180,border_width=0)
     EntryCategorie.grid(row=6,column=2,columnspan=3,padx=(0,15),sticky="e")
@@ -245,12 +245,12 @@ def affichage_liste_emprunts():
     LabelQuintuple = CTkLabel(root, text="",corner_radius=15,height= 70,width=1025,font=Outfit,text_color="white",fg_color="white").grid(row=5,rowspan=3,column=1,columnspan=10,sticky="w")
     EntryScanEmprunt = CTkEntry(root, placeholder_text="ISBN du livre",placeholder_text_color="#7882A5",width=370,corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
     EntryScanEmprunt.grid(row=6,column=1,columnspan=3,padx=(10,0),sticky='w')
-    EntryAdherentCarte = CTkEntry(root, placeholder_text="Identifiant de l'adherent",placeholder_text_color="#7882A5",corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",width=370,border_width=0)
+    EntryAdherentCarte = CTkEntry(root, placeholder_text="Identifiant de l'adherent'",placeholder_text_color="#7882A5",corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",width=370,border_width=0)
     EntryAdherentCarte.grid(row=6,column=2,columnspan=6,sticky='w',padx=(190,0))
     BouttonRetour = CTkButton(root, text="RETOUR",corner_radius=20,height= 50,width=110,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=Retour).grid(row=6,column=6,columnspan=4, padx=(0,130), sticky='e')
     BouttonAjouter = CTkButton(root, text="AJOUTER",corner_radius=20,height= 50,width=110,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=Emprunt).grid(row=6,column=7,columnspan=3, padx=(0,10),sticky="e")
     LabelSimple = CTkLabel(root, text="",corner_radius=15,height= 70,width=600,font=Outfit,text_color="white",fg_color="white").grid(row=9,rowspan=3,column=1,columnspan=4,padx=(0,10))
-    EntryRechercheEmprunt = CTkEntry(root, placeholder_text="Rechercher un Emprunt",placeholder_text_color="#7882A5",corner_radius=10,height= 50,width=380,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
+    EntryRechercheEmprunt = CTkEntry(root, placeholder_text="Rechercher un Adherent",placeholder_text_color="#7882A5",corner_radius=10,height= 50,width=380,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
     EntryRechercheEmprunt.grid(row=10,column=1,columnspan=2,padx=(0,10))
     BouttonRecherche=CTkButton(root, text="RECHERCHER",corner_radius=20,height= 50,width=87,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=RechercherEmprunt).grid(row=10,column=3,columnspan=2,sticky="e",padx=(0,20))
     LabelButton = CTkButton(root, text="Livres en retard",corner_radius=15,height= 30,width=115,font=Outfit,text_color="#1C1C1E",fg_color="white",hover=False,command=Retard).grid(row=9,rowspan=3,column=7,columnspan=3,padx=(90,0))
@@ -310,10 +310,10 @@ def affichage_liste_emprunts():
 
 global Liste_Livre_Affiche
 Liste_Affiche = []
-Image_Poubelle = CTkImage(Image.open("Annexe\icones\Delete.png"),size=(15,15))
-Image_Next_Page = CTkImage(Image.open("Annexe\icones\circle_right.png"),size=(15,15))
-Image_Previous_Page = CTkImage(Image.open("Annexe\icones\circle_left.png"),size=(15,15))
-Image_Retard = CTkImage(Image.open("Annexe\icones\Retard.png"),size=(15,15))
+Image_Poubelle = CTkImage(Image.open("Annexe\Delete.png"),size=(15,15))
+Image_Next_Page = CTkImage(Image.open("Annexe\Bold\Arrow - Right Circle.png"),size=(15,15))
+Image_Previous_Page = CTkImage(Image.open("Annexe\Bold\Arrow - Left Circle.png"),size=(15,15))
+Image_Retard = CTkImage(Image.open("Annexe\Retard.png"),size=(15,15))
 global num_liste_affiche
 global num_liste_max
 num_liste_affiche=1
