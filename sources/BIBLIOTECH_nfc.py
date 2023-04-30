@@ -22,6 +22,8 @@ Le reste des variables sont des variables moins importants/moins utilisé, leurs
 """
 
 ### importation des librairies utilisée
+import sys
+sys.path.append("/nfc/")
 import nfc
 from tkinter import *
 from customtkinter import *
