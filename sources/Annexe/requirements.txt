@@ -3,3 +3,4 @@ customtkinter==5.1.2
 Pillow
 isbnlib
 datetime
+smartcard
