@@ -23,7 +23,7 @@ Le reste des variables sont des variables moins importants/moins utilisé, leurs
 
 ### importation des librairies utilisée
 
-import nfc
+#import nfc
 from tkinter import *
 from customtkinter import *
 from PIL import Image
