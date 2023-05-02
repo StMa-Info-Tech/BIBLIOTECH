@@ -23,7 +23,7 @@ Le reste des variables sont des variables moins importants/moins utilisé, leurs
 
 ### importation des librairies utilisée
 
-#import nfc
+
 from tkinter import *
 from customtkinter import *
 from PIL import Image
@@ -165,7 +165,7 @@ def affichage_liste_livre():
     BouttonLivre = CTkButton(root, text="LIVRE",corner_radius=20,height= 35,width=61,font=Outfit,text_color="#1C1C1E",fg_color="#BAC8EB",bg_color="white",hover=False,command=ChangementLivre).grid(row=2,column=4)
     LabelEspace_LL0 = CTkLabel(root, text="",corner_radius=10,height=30,font=Outfit,fg_color="#0A1437").grid(row=4,column=0)
     LabelQuintuple = CTkLabel(root, text="",corner_radius=15,height= 70,width=715,font=Outfit,text_color="white",fg_color="white").grid(row=5,rowspan=3,column=1,columnspan=5,sticky="w")
-    EntryScanLivre = CTkEntry(root, placeholder_text="Scannez le code barre d'un livre",placeholder_text_color="#7882A5",width=400,corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
+    EntryScanLivre = CTkEntry(root, placeholder_text="ISBN du livre",placeholder_text_color="#7882A5",width=400,corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",border_width=0)
     EntryScanLivre.grid(row=6,column=1,columnspan=2,sticky="w",padx=(10,0))
     EntryCategorie = CTkEntry(root, placeholder_text="Catégorie",placeholder_text_color="#7882A5",corner_radius=10,height= 50,font=Outfit,text_color="#1C1C1E",fg_color="#E5EAF8",bg_color="white",width=180,border_width=0)
     EntryCategorie.grid(row=6,column=2,columnspan=3,padx=(0,15),sticky="e")
